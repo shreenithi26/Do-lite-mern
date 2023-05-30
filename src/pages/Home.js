@@ -20,6 +20,7 @@ import girllap from '../images/girllaptop.png';
 import arrow from '../images/arrowboat.png';
 import footimg from '../images/footerimg.png';
 import anilogo from '../images/anilogo.png';
+import Footer from '../component/Footer';
 
 function Home() {
   return (
@@ -191,7 +192,7 @@ function Home() {
             <p class="texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis morbi commodo cursus venenatis consectetur sed elit in aliquam. Elit at non enim consequat sed semper. In leo maecenas eget consectetur viverra ac, molestie</p>
         </div>
     </div>
-      
+      <Footer/>
     </div>
   );
 }
